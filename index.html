@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hafiz Ahmed | The Hybrid Builder</title>
+    <meta name="description"
+        content="Hafiz Ahmed - Hybrid Engineer & Strategist from Dhaka. Building logic, driving revenue through technology and business strategy.">
+
+    <!-- Premium Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;800&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/profile.png">
+</head>
+
+<body>
+
+    <div class="noise-overlay"></div>
+
+    <div class="ambient-light">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+    </div>
+
+    <!-- Scroll Progress Bar -->
+    <div id="scroll-progress"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-left">
+            <a href="#hero" class="logo">
+                <img src="images/profile.png" alt="Hafiz">
+                <span>HAFIZ.</span>
+            </a>
+            <div class="time-widget" id="dhaka-time">
+                <span class="live-dot"></span>
+                <span id="time-text">--:-- AM</span>
+            </div>
+        </div>
+
+        <div class="nav-links">
+            <a href="#about">Story</a>
+            <a href="#journey">Journey</a>
+            <a href="#services">Services</a>
+            <a href="#work">Ventures</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <button class="menu-toggle" aria-label="Toggle Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="container">
+            <div class="profile-wrapper fade-up">
+                <div class="profile-glow"></div>
+                <div class="profile-ring"></div>
+                <!-- Profile Image -->
+                <img src="images/profile.png" alt="Hafiz Ahmed" class="profile-img">
+            </div>
+
+            <div class="hero-tag fade-up">Hybrid Engineer & Strategist</div>
+
+            <h1 class="fade-up">
+                Architecting <span id="typewriter-text" class="gradient-text"></span><span class="cursor">|</span><br>
+                Intelligent Ecosystems.
+            </h1>
+
+            <p class="fade-up">
+                I'm <strong>Hafiz Ahmed</strong>, a Hybrid Innovator from Dhaka. Bridging the gap between
+                <strong>Business Vision</strong> and <strong>Autonomous AI</strong>. I don't just build software; I
+                architect <strong>Self-Sustaining Digital Empires</strong> that scale and thrive without limits.
+            </p>
+
+            <div class="btn-group fade-up" style="margin-top: 35px;">
+                <a href="#work" class="btn-main">View My Work <i class="fas fa-arrow-right"></i></a>
+                <a href="#contact" class="btn-outline">Let's Talk</a>
+            </div>
+
+            <!-- (Scroll indicator removed) -->
+        </div>
+    </section>
+
+
+
+    <!-- About Grid -->
+    <section id="about" class="section container">
+        <h2 class="section-title fade-up">The Hybrid Mindset</h2>
+        <p class="section-subtitle fade-up">Merging low-level code with high-level strategy.</p>
+
+        <div class="spotlight-group fade-up" id="skills-grid">
+            <div class="card">
+                <div>
+                    <i class="fas fa-microchip card-icon" style="color: var(--primary-glow);"></i>
+                    <h3 class="venture-title">Technical Core</h3>
+                    <p class="venture-desc">
+                        I am an <strong>AI Specialist</strong> building more than just websites. I create
+                        <strong>autonomous, intelligent systems</strong> that automate complex processes and maximize
+                        revenue.
+                    </p>
+                </div>
+                <div
+                    style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; margin-top: 25px; text-align: center;">
+                    <div><i class="fas fa-code" style="color: #fff; font-size: 1.4rem;"></i>
+                        <div style="font-size: 0.7rem; color: #888; margin-top: 8px;">Coding</div>
+                    </div>
+                    <div><i class="fas fa-network-wired" style="color: #fff; font-size: 1.4rem;"></i>
+                        <div style="font-size: 0.7rem; color: #888; margin-top: 8px;">Logic</div>
+                    </div>
+                    <div><i class="fas fa-memory" style="color: #fff; font-size: 1.4rem;"></i>
+                        <div style="font-size: 0.7rem; color: #888; margin-top: 8px;">Hardware</div>
+                    </div>
+                    <div><i class="fas fa-wifi" style="color: #fff; font-size: 1.4rem;"></i>
+                        <div style="font-size: 0.7rem; color: #888; margin-top: 8px;">NFC</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div>
+                    <i class="fas fa-layer-group card-icon" style="color: var(--secondary-glow);"></i>
+                    <h3 class="venture-title">Creative & Business</h3>
+                    <p class="venture-desc">
+                        I speak the language of business, not just binary. Combining <strong>Strategy</strong> with
+                        <strong>Human Connection</strong> to turn cold leads into long-term partners.
+                    </p>
+                </div>
+                <div
+                    style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; margin-top: 25px; text-align: center;">
+                    <div><i class="fas fa-video" style="color: #fff; font-size: 1.4rem;"></i>
+                        <div style="font-size: 0.7rem; color: #888; margin-top: 8px;">Premiere</div>
+                    </div>
+                    <div><i class="fas fa-brain" style="color: #fff; font-size: 1.4rem;"></i>
+                        <div style="font-size: 0.7rem; color: #888; margin-top: 8px;">AI</div>
+                    </div>
+                    <div><i class="fas fa-file-excel" style="color: #fff; font-size: 1.4rem;"></i>
+                        <div style="font-size: 0.7rem; color: #888; margin-top: 8px;">Excel</div>
+                    </div>
+                    <div><i class="fas fa-handshake" style="color: #fff; font-size: 1.4rem;"></i>
+                        <div style="font-size: 0.7rem; color: #888; margin-top: 8px;">Sales</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Journey Timeline -->
+    <section id="journey" class="section container">
+        <h2 class="section-title fade-up">My Journey</h2>
+        <p class="section-subtitle fade-up">A relentless pursuit of innovation.</p>
+
+        <div class="timeline fade-up">
+            <div class="timeline-item">
+                <div class="timeline-date">2026 - Present</div>
+                <div class="timeline-role">Founder & Product Lead</div>
+                <div class="timeline-org">TapFlow Solutions</div>
+                <p style="color: #aaa; font-size: 0.95rem; margin-top: 5px;">Helping restaurants boost Google Reviews,
+                    build
+                    trust, and increase sales through reputation management.</p>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2025 - Present</div>
+                <div class="timeline-role">CSE Undergraduate</div>
+                <div class="timeline-org">Bangladesh University</div>
+                <p style="color: #aaa; font-size: 0.95rem; margin-top: 5px;">Mastering Algorithms, Data Structures, and
+                    Computer Architecture.</p>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2025 - 2025</div>
+                <div class="timeline-role">Telesales Executive</div>
+                <div class="timeline-org">Falaq Food</div>
+                <p style="color: #aaa; font-size: 0.95rem; margin-top: 5px;">Mastered objection handling, cold calling,
+                    and negotiation tactics in a fast-paced sales environment.</p>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2022 - Present</div>
+                <div class="timeline-role">Founder</div>
+                <div class="timeline-org">Networx Agency</div>
+                <p style="color: #aaa; font-size: 0.95rem; margin-top: 5px;">Working with worldwide clients on Agentic
+                    Workflows and Online Digital Presence.</p>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2018 - 2020</div>
+                <div class="timeline-role">Content Creator</div>
+                <div class="timeline-org">YouTube Media</div>
+                <p style="color: #aaa; font-size: 0.95rem; margin-top: 5px;">Self-taught video editing, storytelling,
+                    and audience retention strategies.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="section container">
+        <h2 class="section-title fade-up">How I Can Help</h2>
+        <p class="section-subtitle fade-up">Tailored solutions for your growth.</p>
+
+        <div class="grid-3 spotlight-group fade-up" id="services-grid">
+            <div class="card">
+                <i class="fas fa-brain card-icon" style="color: #fff;"></i>
+                <h3 class="venture-title">Consulting</h3>
+                <p class="venture-desc">Helping businesses scale by integrating cutting-edge AI strategy into their DNA.
+                </p>
+                <ul class="service-list">
+                    <li><i class="fas fa-check" style="color: var(--secondary-glow);"></i> AI Growth Strategy</li>
+                    <li><i class="fas fa-check" style="color: var(--secondary-glow);"></i> High-Ticket Sales Systems
+                    </li>
+                </ul>
+            </div>
+            <div class="card">
+                <i class="fas fa-robot card-icon" style="color: var(--secondary-glow);"></i>
+                <h3 class="venture-title">AI & Automation</h3>
+                <p class="venture-desc">I leverage advanced AI to automate any complex task. If it can be done, I can
+                    build an AI for it.</p>
+                <ul class="service-list">
+                    <li><i class="fas fa-check" style="color: var(--secondary-glow);"></i> Autonomous AI Agents</li>
+                    <li><i class="fas fa-check" style="color: var(--secondary-glow);"></i> Automated Workflows</li>
+                </ul>
+            </div>
+            <div class="card">
+                <i class="fas fa-icons card-icon" style="color: var(--primary-glow);"></i>
+                <h3 class="venture-title">Creative Media</h3>
+                <p class="venture-desc">Premium content production powered by both human creativity and AI precision.
+                </p>
+                <ul class="service-list">
+                    <li><i class="fas fa-check" style="color: var(--secondary-glow);"></i> Video Production
+                        (Premiere/AE)</li>
+                    <li><i class="fas fa-check" style="color: var(--secondary-glow);"></i> Social Media Strategy</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Methodology / Process -->
+    <section class="section container">
+        <h2 class="section-title fade-up">My Process</h2>
+        <p class="section-subtitle fade-up">Strategic frameworks I use to drive growth.</p>
+        <div class="spotlight-group fade-up">
+            <div class="card">
+                <i class="fas fa-water card-icon" style="color: var(--secondary-glow);"></i>
+                <h3 class="venture-title">Blue Ocean Strategy</h3>
+                <p class="venture-desc">
+                    I don't compete in crowded markets. I help clients identify <strong>Uncontested Market
+                        Spaces</strong>
+                    where competition is irrelevant and profit margins are higher.
+                </p>
+            </div>
+            <div class="card">
+                <i class="fas fa-brain card-icon" style="color: var(--primary-glow);"></i>
+                <h3 class="venture-title">Psychographic Outreach</h3>
+                <p class="venture-desc">
+                    Beyond demographics. I craft outreach messages based on <strong>Values, Interests, and
+                        Lifestyle</strong>.
+                    This psychological approach drastically increases response rates.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Testimonials (Restored) -->
+
+
+
+
+    <!-- Ventures Section -->
+    <section id="work" class="section container">
+        <h2 class="section-title fade-up">Selected Works</h2>
+        <p class="section-subtitle fade-up">Projects making a real impact.</p>
+
+        <div class="spotlight-group fade-up" id="work-grid">
+            <div class="card featured-card">
+                <div class="featured-card-layout">
+                    <div class="featured-content">
+                        <div class="featured-badge">Featured Startup</div>
+                        <h3 class="featured-title">TapFlow Solutions</h3>
+                        <p class="venture-desc">
+                            Helping restaurants <strong>boost Google Reviews, build trust, and increase sales</strong>
+                            through
+                            smart digital strategies. Focusing on reputation management and customer engagement.
+                        </p>
+                        <div class="tech-pills">
+                            <span class="pill">Sales Growth</span>
+                            <span class="pill">B2B Sales</span>
+                            <span class="pill">Dhaka</span>
+                        </div>
+                    </div>
+                    <div class="featured-action">
+                        <a href="https://tapflowsolutions.netlify.app" target="_blank" class="btn-main featured-btn">
+                            View Live Site <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card featured-card">
+                <div class="featured-card-layout">
+                    <div class="featured-content">
+                        <div class="featured-badge">Featured Agency</div>
+                        <h3 class="featured-title">Networx Agency</h3>
+                        <p class="venture-desc">
+                            Working with <strong>Worldwide Clients</strong> on <strong>Agentic
+                                Workflows</strong> and Online
+                            Digital Presence. From strategy to technical execution.
+                        </p>
+                        <div class="tech-pills">
+                            <span class="pill">Global</span>
+                            <span class="pill">Agentic Workflow</span>
+                            <span class="pill">Online Presence</span>
+                        </div>
+                    </div>
+                    <div class="featured-action">
+                        <a href="https://networxagency.netlify.app/" target="_blank" class="btn-main featured-btn">
+                            View Live Site <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3 class="venture-title">Blue Ocean Labs</h3>
+                <p class="venture-desc">Developing a scalable business model for the Bangladeshi market with
+                    <strong>Global Export Potential</strong>. Identifying uncrowded 'Blue Ocean'
+                    opportunities.
+                </p>
+                <div class="mt-20"><span class="pill">Business Model</span><span class="pill">Export
+                        Strategy</span>
+                </div>
+                <button class="btn-text view-project-btn" data-project="blue-ocean" style="margin-top: 20px;">View
+                    Details <i class="fas fa-arrow-right"></i></button>
+            </div>
+
+            <div class="card">
+                <h3 class="venture-title">Project Alpha</h3>
+                <p class="venture-desc">Building autonomous AI agents that can navigate the web, scrape
+                    data,
+                    and
+                    perform complex tasks without supervision.</p>
+                <div class="mt-20"><span class="pill">AI Agents</span><span class="pill">Automation</span>
+                </div>
+                <button class="btn-text view-project-btn" data-project="alpha" style="margin-top: 20px;">View
+                    Details <i class="fas fa-arrow-right"></i></button>
+            </div>
+
+            <div class="card featured-card">
+                <div class="featured-card-layout">
+                    <div class="featured-content">
+                        <div class="featured-badge" style="background: rgba(255, 215, 0, 0.1); color: #ffd700;">
+                            Life's
+                            Master Plan</div>
+                        <h3 class="featured-title">Vision 2029: The Chairman's Roadmap</h3>
+                        <p class="venture-desc">
+                            My ultimate goal is to evolve into a <strong>Chairman of a Global Group of
+                                Industries</strong>
+                            by 2029. I am building autonomous systems today to transition into a strategic
+                            <strong>Angel
+                                Investor</strong> tomorrow.
+                            <br><br>
+                            The mission: Achieve complete <strong>Financial & Operational Freedom by Age
+                                25</strong>,
+                            retiring from the daily grind to <strong>Travel the World</strong> while my
+                            innovative
+                            ecosystem
+                            continues to thrive.
+                        </p>
+                        <div class="tech-pills">
+                            <span class="pill">Group of Companies</span>
+                            <span class="pill">Angel Investing</span>
+                            <span class="pill">Financial Freedom</span>
+                            <span class="pill">World Tour</span>
+                        </div>
+                    </div>
+                    <div class="featured-action">
+                        <a href="#" class="btn-outline featured-btn" id="view-roadmap-btn"
+                            style="border-color: #ffd700; color: #ffd700;">
+                            View Roadmap <i class="fas fa-map-marked-alt"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section with Form -->
+    <section id="contact" class="contact-form-section container">
+        <div class="contact-grid fade-up">
+            <div class="contact-info">
+                <h2>Let's Work Together</h2>
+                <p>Have a project in mind? Want to collaborate? Or just want to say hi? Connect with me directly.</p>
+
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>hafizandusaid@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+880 1325-886050</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Mohammadpur, Dhaka, Bangladesh</span>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="contact-form"
+                style="text-align: center; display: flex; flex-direction: column; justify-content: center; align-items: center; min-height: 400px;">
+                <i class="fab fa-whatsapp" style="font-size: 4rem; color: #25D366; margin-bottom: 20px;"></i>
+                <h3 style="color: #fff; font-size: 1.5rem; margin-bottom: 15px;">Quick Chat</h3>
+                <p style="color: var(--text-muted); margin-bottom: 30px; max-width: 80%;">
+                    Skip the email and connect with me directly on WhatsApp for a faster response.
+                </p>
+                <a href="https://wa.me/8801325886050" target="_blank" class="btn-whatsapp"
+                    style="width: auto; min-width: 250px;">
+                    <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid fade-up">
+                <div>
+                    <a href="#" class="footer-logo">
+                        <img src="images/profile.png" alt="Hafiz">
+                        <span>HAFIZ.</span>
+                    </a>
+                    <p style="color: var(--text-muted); max-width: 300px; font-size: 0.95rem; margin-bottom: 25px;">
+                        Hybrid Engineer. Entrepreneur. Lifelong Learner.
+                    </p>
+                    <div class="social-bar">
+                        <a href="https://linkedin.com/in/thehafiz" target="_blank"><i
+                                class="fab fa-linkedin-in"></i></a>
+                        <a href="https://x.com/HafizAhmed03" target="_blank"><i class="fab fa-x-twitter"></i></a>
+                        <a href="https://github.com/hafizbro" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.facebook.com/hafizahmed.03/" target="_blank"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/ahmed.in.frame/" target="_blank"><i
+                                class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="#about">My Story</a></li>
+                        <li><a href="#journey">Journey</a></li>
+                        <li><a href="#work">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="mailto:hafizandusaid@gmail.com">Email Me</a></li>
+                        <li><a href="tel:+8801325886050">Call Me</a></li>
+                        <li><a href="https://linkedin.com/in/thehafiz" target="_blank">LinkedIn</a></li>
+                        <li><a href="https://github.com/hafizbro" target="_blank">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 60px; font-size: 0.85rem; color: #555;">
+                <p>&copy; 2026 Hafiz Ahmed. Built from scratch in Dhaka.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#hero" id="back-to-top" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Roadmap Modal -->
+    <div id="roadmap-modal" class="modal-overlay">
+        <div class="modal-content roadmap-content">
+            <button class="close-modal" id="close-roadmap">&times;</button>
+            <div class="modal-body">
+                <h2 class="section-title text-center" style="margin-bottom: 40px; color: #ffd700;">Vision 2029 Roadmap
+                </h2>
+                <div class="roadmap-timeline">
+                    <!-- 2026 -->
+                    <div class="roadmap-item fade-in-step" style="animation-delay: 0.2s;">
+                        <div class="year-badge">2026</div>
+                        <div class="roadmap-details">
+                            <h3>Foundation & Scale</h3>
+                            <p>Launch TapFlow Solutions globally. Establish Networx as a premier AI agency. Generate
+                                initial capital for R&D.</p>
+                        </div>
+                    </div>
+                    <!-- 2027 -->
+                    <div class="roadmap-item fade-in-step" style="animation-delay: 1.5s;">
+                        <div class="year-badge">2027</div>
+                        <div class="roadmap-details">
+                            <h3>Autonomous Expansion</h3>
+                            <p>Deploy fully autonomous AI agents for business operations. Minimize human intervention in
+                                daily workflows.</p>
+                        </div>
+                    </div>
+                    <!-- 2028 -->
+                    <div class="roadmap-item fade-in-step" style="animation-delay: 3.0s;">
+                        <div class="year-badge">2028</div>
+                        <div class="roadmap-details">
+                            <h3>Venture Capital & Acquisition</h3>
+                            <p>Transition from operator to investor. Acquire small SaaS companies and integrate them
+                                into the ecosystem.</p>
+                        </div>
+                    </div>
+                    <!-- 2029 -->
+                    <div class="roadmap-item fade-in-step" style="animation-delay: 4.5s;">
+                        <div class="year-badge gold-badge">2029</div>
+                        <div class="roadmap-details">
+                            <h3>The Chairman</h3>
+                            <p>Establish the "Ahmed Group of Industries". Achieve complete financial independence. Begin
+                                World Tour.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Project Modal -->
+    <div id="project-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="close-modal">&times;</button>
+            <div class="modal-body">
+                <span class="modal-tag">Featured Project</span>
+                <h2 class="modal-title">Project Title</h2>
+                <div class="modal-image-container">
+                    <div class="skeleton-loader"></div>
+                    <!-- Image will be injected here -->
+                </div>
+                <p class="modal-desc">Project description goes here...</p>
+                <div class="modal-tech-stack">
+                    <!-- Tech pills injected here -->
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Script -->
+    <script src="main.js"></script>
+</body>
+
+</html>
